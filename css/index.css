@@ -84,10 +84,103 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.boxes{
+    margin: 0 auto;
+    flex-direction: row;
+    align-self: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    text-align: center;
+    top: 50%;
+
+}
+.box1{
+    /*width: 100px;*/
+    flex-basis: 6em;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+    margin: 5px 20px;
+}
+.box2{
+
+    /*width: 100px;*/
+    flex-basis: 6em;
+    height: 100px;
+    color: white;
+    padding: 0 auto;
+    background-color: yellow;
+    margin: 5px 20px;
+}
+.box3{
+    /*width: 100px;*/
+    flex-basis: 6em;
+    height: 100px;
+    color: white;
+    background-color:teal;
+    margin: 5px 20px;
+} 
+.box4{
+    /*width: 100px;*/
+    flex-basis: 6em;
+    height: 100px;
+    color: white;
+    background-color: orange; 
+    margin: 5px 20px;
+}
+.box5{
+    /*width: 100px;*/
+    flex-basis: 6em;
+    height: 100px;
+    color: white;
+    background-color: red;
+    margin: 5px 20px;
+}
+.box6{
+    margin: 5px 20px;
+    flex-basis: 6em;
+    height: 100px;
+    color: white;
+    background-color: green; 
+}
+.box7{
+    margin: 5px 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: fuchsia; 
+    flex-basis: 6em;
+}
+.box8{
+    margin: 5px 20px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: pink;
+    flex-basis: 6em; 
+}
+.box9{
+    margin: 5px 20px;
+    width: 100px;
+    height: 100px;
+    color:white;
+    background-color: purple;
+    flex-basis: 6em; 
+}
+.box10{
+    margin: 5px 20px;
+    width: 100px;
+    height: 100px;
+    color:white;
+    background-color: royalblue;
+    flex-basis: 6em; 
+}
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    font: bold 14px;
 }
 
 .middle-content h2 {
